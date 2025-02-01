@@ -28,7 +28,7 @@ const About = () => {
               <h3 className='text-xl md:text-2xl font-bold text-center mt-4 underline'> My Skills</h3>
               <ul className='grid grid-cols-3 lg:grid-cols-4 gap-4'>
         {skill.map((skills, index) => (
-          <li  className='inline-block  p-8 rounded-5 font-bold text-lg md:text-xl' key={index}>{skills}</li>
+          <li  className='inline-block p-4 mt-4  rounded-5 font-bold text-lg md:text-xl ' key={index}>{skills}</li>
         ))}
       </ul>
             </div>

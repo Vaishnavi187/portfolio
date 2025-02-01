@@ -34,12 +34,18 @@ const Portfolio = () => {
       description: 'Built a fully functional web-based calculator using HTML , CSS and JavaScript. Implemented core arithmectic operations (addition , substraction , multiplication and division .',
       link: 'https://calc-43h2xkmyj-vaishnavi-singhs-projects-91a182a2.vercel.app/',
     },
+    {
+      title: ' Quiz Application',
+      image:"quiz.webp",
+      description: 'A dynamic quiz application built with Reactjs and Tailwind CSS featuring an engaging UI. It has multiple choice questions and give instant feedback on your answer.',
+      link: 'https://quiz-three-roan.vercel.app/',
+    },
   ]
   return (
     <>
     <section className=' mt-10 text-white' id='portfolio'>
       <h1 className='text-2xl md:text-4xl text-white font-bold text-center underline'>My Projects</h1>
-      <div className="container mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="container mx-auto  p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
       {project.map((projects, index) => (
         <Card 
           key={index}
