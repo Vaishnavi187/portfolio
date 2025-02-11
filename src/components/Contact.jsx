@@ -12,11 +12,11 @@ const Contact = () => {
          </div>
     <div className='flex gap-10 '>
    
-      <a href="mailto:vaishnavisingh2005.college@gmail.com" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:vaishnavisingh2005.college@gmail.com" >
       <MdEmail className='text-3xl' />
       </a>
       
-      <a href="https://github.com/Vaishnavi187" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/Vaishnavi187" >
       <BsGithub className='text-3xl' />
       </a>
 

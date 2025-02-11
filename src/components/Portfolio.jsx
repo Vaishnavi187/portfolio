@@ -14,7 +14,7 @@ const Portfolio = () => {
       title: 'Book store',
       image:"book.jpeg",
       description: 'Developed a web application using a MERN stack.Designed a user friendly interface with React and Tailwind CSS. Build a RESTfulAPI with Node.js and Express.js to handle book data operations.Stored and managed book details in MonoDB ,ensuring efficient Data retrieval and scalability.',
-      link: 'https://books-gamma-peach.vercel.app/',
+      link: 'https://books-chi-mocha.vercel.app/',
     },
     {
       title: 'Recipe app',
